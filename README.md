@@ -1,30 +1,38 @@
 # 📚 Library Admin
 
-**Library Admin**, Flutter ile geliştirilmiş, çok platformlu çalışan bir kütüphane yönetim uygulamasıdır. Bu uygulama, kitapları ekleme, düzenleme, silme ve listeleme işlemlerini kolayca yapmanı sağlar. Proje, hem masaüstü hem mobil hem de web ortamında çalışacak şekilde tasarlanmıştır.
+**Library Admin**, Flutter ve Firebase kullanılarak geliştirilen modern, çok platformlu (cross-platform) bir kütüphane yönetim sistemidir. Proje; kullanıcı dostu bir arayüz, esnek veri yönetimi, Google oturum entegrasyonu ve zengin görsel ögeleriyle donatılmıştır. Hem admin paneli hem de kullanıcı arayüzü olarak çalışabilecek şekilde mimari olarak ayrıştırılmıştır.
 
 ---
 
-## 🚀 Özellikler
+## ✨ Başlıca Özellikler
 
-- 📖 Kitap ekleme, silme, düzenleme
-- 🔍 Kitap listesini görüntüleme
-- 🧭 Modern ve sade kullanıcı arayüzü
-- 📱 Web, mobil ve masaüstü desteği (Flutter ile)
-- 🔐 Basit yönetici paneli altyapısı (admin yapısı için temel hazır)
+- 🔐 **Google ile Giriş** (Firebase Authentication)
+- 🔥 **Gerçek zamanlı veri yönetimi** (Cloud Firestore)
+- ☁️ **Kitap resimleri için Firebase Storage kullanımı**
+- 🎨 Lottie animasyonları, shimmer efektleri, özel ikonlar ve daha fazlası
+- 📱 Android, iOS, Web ve Masaüstü desteği (Flutter multiplatform)
+- 🛒 Kullanıcı çantası, kategori filtreleme, banner sistemi gibi gelişmiş UI modülleri
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+## 🛠️ Kullanılan Teknolojiler ve Paketler
 
-Aşağıdaki adımları izleyerek projeyi cihazında çalıştırabilirsin:
+| Teknoloji            | Açıklama                                               |
+|----------------------|---------------------------------------------------------|
+| **Flutter**          | Ana frontend framework (cross-platform UI)             |
+| **Firebase**         | Auth, Firestore, Storage altyapısı                     |
+| **Provider**         | State management                                       |
+| **Shared Preferences** | Basit lokal veri saklama                             |
+| **Lottie** / **Shimmer** | Animasyonlar ve UI efektleri                       |
+| **Card Swiper**, **Fancy Image**, **Dynamic Grid** | Gelişmiş listeleme ve UI |
+| **Image Picker**, **UUID** | Dosya yönetimi ve benzersiz ID üretimi          |
+
+---
+
+## 📦 Kurulum
+
+1. Bu projeyi cihazına klonla:
 
 ```bash
-# Projeyi klonla
 git clone https://github.com/AlbayEmre/library_admin.git
 cd library_admin
-
-# Flutter bağımlılıklarını yükle
-flutter pub get
-
-# Uygulamayı çalıştır (örnek: chrome, android, windows)
-flutter run -d chrome
