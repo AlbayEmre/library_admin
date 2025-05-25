@@ -1,16 +1,14 @@
-# lib_admin
+📚 Library Admin - Flutter Kütüphane Yönetim Sistemi
+Library Admin, Flutter ile geliştirilmiş çok platformlu (Android, iOS, Web, Windows, macOS, Linux) bir kütüphane yönetim uygulamasıdır. Kullanıcıların kitapları ekleyip düzenleyebileceği, kitap listelerini görüntüleyebileceği ve yönetebileceği bir arayüz sunar.
 
-A new Flutter project.
+🚀 Özellikler
+📖 Kitap ekleme, silme ve güncelleme
 
-## Getting Started
+🔍 Kitap listesi görüntüleme
 
-This project is a starting point for a Flutter application.
+📱 Mobil, web ve masaüstü desteği
 
-A few resources to get you started if this is your first Flutter project:
+🎯 Flutter ile modern ve responsive arayüz
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/AlbayEmre/library_admin.git
+cd library_admin
